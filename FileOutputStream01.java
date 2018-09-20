@@ -7,7 +7,7 @@ public class FileOutputStream01 {
 			FileInputStream fis = new FileInputStream("Comment.java");
 			try{
 				FileOutputStream fos = new FileOutputStream("Comment.bak");
-			
+			//Comment
 				try{
 					int data;
 					fos.write("// Bakup file \n".getBytes());
